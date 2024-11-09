@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3137A23F2CDEAAA10019F01F /* SuperHeroes.json in Resources */ = {isa = PBXBuildFile; fileRef = 3137A23E2CDEAAA10019F01F /* SuperHeroes.json */; };
+		31A44BF72CDFF17900B36878 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 31A44BF62CDFF17900B36878 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		3137A22C2CDEAA090019F01F /* DesignFive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignFive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3137A22C2CDEAA090019F01F /* DesignFive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = DesignFive.app; path = "/Users/nabusim/Developer/swift/CPG/DesignFive/build/Debug-iphoneos/DesignFive.app"; sourceTree = "<absolute>"; };
+		3137A23E2CDEAAA10019F01F /* SuperHeroes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SuperHeroes.json; sourceTree = "<group>"; };
+		31A44BF62CDFF17900B36878 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,17 +39,18 @@
 		3137A2232CDEAA090019F01F = {
 			isa = PBXGroup;
 			children = (
+				31A44BF62CDFF17900B36878 /* README.md */,
+				3137A23D2CDEAA4B0019F01F /* Resources */,
 				3137A22E2CDEAA090019F01F /* DesignFive */,
-				3137A22D2CDEAA090019F01F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3137A22D2CDEAA090019F01F /* Products */ = {
+		3137A23D2CDEAA4B0019F01F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3137A22C2CDEAA090019F01F /* DesignFive.app */,
+				3137A23E2CDEAAA10019F01F /* SuperHeroes.json */,
 			);
-			name = Products;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +103,7 @@
 			mainGroup = 3137A2232CDEAA090019F01F;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 3137A22D2CDEAA090019F01F /* Products */;
+			productRefGroup = 3137A2232CDEAA090019F01F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -109,6 +117,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A44BF72CDFF17900B36878 /* README.md in Resources */,
+				3137A23F2CDEAAA10019F01F /* SuperHeroes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +195,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -240,6 +251,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -268,7 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nabusim.DesignFive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -297,7 +309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.nabusim.DesignFive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

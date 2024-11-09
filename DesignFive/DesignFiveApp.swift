@@ -11,7 +11,7 @@ import SwiftUI
 struct DesignFiveApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SuperHeroes()
         }
     }
 }
